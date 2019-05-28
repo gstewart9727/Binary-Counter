@@ -29,6 +29,21 @@
 #define COMPILER_VERSION                    "Compiler unknown"
 #endif
 
+//*****************************************************************************
+//
+// UART configuration settings.
+//
+//*****************************************************************************
+am_hal_uart_config_t g_sUartConfig =
+{
+    .ui32BaudRate = 115200,
+    .ui32DataBits = AM_HAL_UART_DATA_BITS_8,
+    .bTwoStopBits = false,
+    .ui32Parity   = AM_HAL_UART_PARITY_NONE,
+    .ui32FlowCtrl = AM_HAL_UART_FLOW_CTRL_NONE,
+};
+
+
 // Prototypes
 void clearLED();
 void count4Bit();
@@ -58,6 +73,99 @@ static int delay = 100;
 #define HUNDREDS2		39
 
 
+//*****************************************************************************
+//
+// Initialize the UART
+//
+//*****************************************************************************
+void
+uart_init(uint32_t ui32Module)
+{
+    //
+    // Make sure the UART RX and TX pins are enabled.
+    //
+    am_bsp_pin_enable(COM_UART_TX);
+    am_bsp_pin_enable(COM_UART_RX);
+
+    //
+    // Power on the selected UART
+    //
+    am_hal_uart_pwrctrl_enable(ui32Module);
+
+    //
+    // Start the UART interface, apply the desired configuration settings, and
+    // enable the FIFOs.
+    //
+    am_hal_uart_clock_enable(ui32Module);
+
+    //
+    // Disable the UART before configuring it.
+    //
+    am_hal_uart_disable(ui32Module);
+
+    //
+    // Configure the UART.
+    //
+    am_hal_uart_config(ui32Module, &g_sUartConfig);
+
+    //
+    // Enable the UART FIFO.
+    //
+    am_hal_uart_fifo_config(ui32Module, AM_HAL_UART_TX_FIFO_1_2 | AM_HAL_UART_RX_FIFO_1_2);
+
+    //
+    // Enable the UART.
+    //
+    am_hal_uart_enable(ui32Module);
+}
+
+//*****************************************************************************
+//
+// Disable the UART
+//
+//*****************************************************************************
+void
+uart_disable(uint32_t ui32Module)
+{
+      //
+      // Clear all interrupts before sleeping as having a pending UART interrupt
+      // burns power.
+      //
+      am_hal_uart_int_clear(ui32Module, 0xFFFFFFFF);
+
+      //
+      // Disable the UART.
+      //
+      am_hal_uart_disable(ui32Module);
+
+      //
+      // Disable the UART pins.
+      //
+      am_bsp_pin_disable(COM_UART_TX);
+      am_bsp_pin_disable(COM_UART_RX);
+
+      //
+      // Disable the UART clock.
+      //
+      am_hal_uart_clock_disable(ui32Module);
+}
+
+//*****************************************************************************
+//
+// Transmit delay waits for busy bit to clear to allow
+// for a transmission to fully complete before proceeding.
+//
+//*****************************************************************************
+void
+uart_transmit_delay(uint32_t ui32Module)
+{
+  //
+  // Wait until busy bit clears to make sure UART fully transmitted last byte
+  //
+  while ( am_hal_uart_flags_get(ui32Module) & AM_HAL_UART_FR_BUSY );
+}
+
+
 // Function		: main
 // Description	: Main completes configuration of the board and begins running the counter loop
 // Parameters	: None
@@ -79,6 +187,18 @@ main(void)
 
     // Enable the ITM.
     am_hal_itm_enable();
+
+    // Select a UART module to use.
+    uint32_t ui32Module = AM_BSP_UART_PRINT_INST;
+
+    // Initialize the printf interface for UART output.
+    am_util_stdio_printf_init((am_util_stdio_print_char_t)am_bsp_uart_string_print);
+
+    // Configure and enable the UART.
+    uart_init(ui32Module);
+
+    // Disable the UART and interrupts
+//    uart_disable(ui32Module);
 
 
     // Configure Binary LED Counter GPIO Pins
@@ -175,6 +295,9 @@ main(void)
 
 		// Turn off binary LEDs
 		am_hal_gpio_out_bit_set(GPIO_OE_BIN);
+
+		// Display current integer
+		am_util_stdio_printf("%3.0u \r", integer);
 
 		integer++;
     }
