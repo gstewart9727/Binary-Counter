@@ -1,0 +1,1102 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+                              src/hello_world.o (am_bsp_low_power_init)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+                              src/hello_world.o (am_hal_clkgen_sysclk_select)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+                              utils/am_util_delay.o (am_hal_flash_delay)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (g_ui32HALflags)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (am_hal_gpio_pin_config_read)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+                              src/hello_world.o (am_hal_interrupt_enable)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (am_hal_iom_enable)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+                              src/hello_world.o (am_hal_itm_enable)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+                              utils/am_util_id.o (am_hal_mcuctrl_device_info_get)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+                              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o) (am_hal_queue_init)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (am_hal_rtc_osc_select)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+                              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o) (am_hal_sysctrl_sleep)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (am_hal_tpiu_enable)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (am_hal_uart_string_transmit_polled)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+                              ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o) (am_hal_vcomp_disable)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+                              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o) (am_hal_debug_error)
+../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+                              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o) (am_hal_i2c_bit_bang_receive)
+/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+                              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o) (memcpy)
+/opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+                              utils/am_util_stdio.o (__aeabi_d2f)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_pfnCharPrint      0x4               utils/am_util_stdio.o
+g_psIOMBuffers      0x28              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+g_sTxBuffer         0x14              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+g_psIOMQueue        0x30              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+g_sRxBuffer         0x14              ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+am_hal_gpio_ppfnHandlers
+                    0x100             ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 src/hello_world.o
+ .data          0x0000000000000000        0x0 src/hello_world.o
+ .bss           0x0000000000000000        0x0 src/hello_world.o
+ .text          0x0000000000000000        0x0 startup_gcc.o
+ .data          0x0000000000000000        0x0 startup_gcc.o
+ .bss           0x0000000000000000        0x0 startup_gcc.o
+ .text.am_fault_isr
+                0x0000000000000000        0x6 startup_gcc.o
+ .text          0x0000000000000000        0x0 utils/am_util_delay.o
+ .data          0x0000000000000000        0x0 utils/am_util_delay.o
+ .bss           0x0000000000000000        0x0 utils/am_util_delay.o
+ .text.am_util_delay_cycles
+                0x0000000000000000       0x16 utils/am_util_delay.o
+ .text.am_util_delay_us
+                0x0000000000000000       0x34 utils/am_util_delay.o
+ .text          0x0000000000000000        0x0 utils/am_util_faultisr.o
+ .data          0x0000000000000000        0x0 utils/am_util_faultisr.o
+ .bss           0x0000000000000000        0x0 utils/am_util_faultisr.o
+ .text          0x0000000000000000        0x0 utils/am_util_id.o
+ .data          0x0000000000000000        0x0 utils/am_util_id.o
+ .bss           0x0000000000000000        0x0 utils/am_util_id.o
+ .rodata.g_DeviceNameApollo
+                0x0000000000000000        0x7 utils/am_util_id.o
+ .rodata.g_DeviceNameApollo2
+                0x0000000000000000        0x8 utils/am_util_id.o
+ .rodata.g_DeviceNameApollo3
+                0x0000000000000000        0x8 utils/am_util_id.o
+ .rodata.g_ui8VendorNameAmbq
+                0x0000000000000000        0x5 utils/am_util_id.o
+ .rodata.g_ui8VendorNameUnknown
+                0x0000000000000000        0x5 utils/am_util_id.o
+ .rodata.g_ui8DeviceNameUnknown
+                0x0000000000000000        0xf utils/am_util_id.o
+ .text.am_util_id_device
+                0x0000000000000000      0x1a4 utils/am_util_id.o
+ .debug_info    0x0000000000000000      0x2df utils/am_util_id.o
+ .debug_abbrev  0x0000000000000000       0xd4 utils/am_util_id.o
+ .debug_aranges
+                0x0000000000000000       0x20 utils/am_util_id.o
+ .debug_ranges  0x0000000000000000       0x10 utils/am_util_id.o
+ .debug_line    0x0000000000000000      0x212 utils/am_util_id.o
+ .debug_str     0x0000000000000000      0x409 utils/am_util_id.o
+ .comment       0x0000000000000000       0x7d utils/am_util_id.o
+ .debug_frame   0x0000000000000000       0x34 utils/am_util_id.o
+ .ARM.attributes
+                0x0000000000000000       0x37 utils/am_util_id.o
+ .text          0x0000000000000000        0x0 utils/am_util_stdio.o
+ .data          0x0000000000000000        0x0 utils/am_util_stdio.o
+ .bss           0x0000000000000000        0x0 utils/am_util_stdio.o
+ .bss.g_prfbuf  0x0000000000000000      0x100 utils/am_util_stdio.o
+ .bss.g_bTxtXlate
+                0x0000000000000000        0x1 utils/am_util_stdio.o
+ .text.am_util_stdio_printf_init
+                0x0000000000000000       0x20 utils/am_util_stdio.o
+ .text.am_util_stdio_strtoul
+                0x0000000000000000      0x108 utils/am_util_stdio.o
+ .text.divu64_10
+                0x0000000000000000      0x1be utils/am_util_stdio.o
+ .text.ndigits_in_u64
+                0x0000000000000000       0x42 utils/am_util_stdio.o
+ .text.ndigits_in_i64
+                0x0000000000000000       0x3a utils/am_util_stdio.o
+ .text.ndigits_in_hex
+                0x0000000000000000       0x48 utils/am_util_stdio.o
+ .text.decstr_to_int
+                0x0000000000000000       0x8c utils/am_util_stdio.o
+ .text.uint64_to_str
+                0x0000000000000000       0x90 utils/am_util_stdio.o
+ .text.uint64_to_hexstr
+                0x0000000000000000       0xc0 utils/am_util_stdio.o
+ .text.simple_strlen
+                0x0000000000000000       0x36 utils/am_util_stdio.o
+ .text.padbuffer
+                0x0000000000000000       0x4a utils/am_util_stdio.o
+ .text.am_util_stdio_textmode_set
+                0x0000000000000000       0x28 utils/am_util_stdio.o
+ .text.ftoa     0x0000000000000000      0x1fc utils/am_util_stdio.o
+ .text.am_util_stdio_vsprintf
+                0x0000000000000000      0x60c utils/am_util_stdio.o
+ .text.am_util_stdio_sprintf
+                0x0000000000000000       0x2c utils/am_util_stdio.o
+ .text.am_util_stdio_printf
+                0x0000000000000000       0x3c utils/am_util_stdio.o
+ .rodata        0x0000000000000000       0x13 utils/am_util_stdio.o
+ .text.am_util_stdio_terminal_clear
+                0x0000000000000000       0x14 utils/am_util_stdio.o
+ .debug_info    0x0000000000000000      0x8aa utils/am_util_stdio.o
+ .debug_abbrev  0x0000000000000000      0x20d utils/am_util_stdio.o
+ .debug_aranges
+                0x0000000000000000       0xa0 utils/am_util_stdio.o
+ .debug_ranges  0x0000000000000000       0x90 utils/am_util_stdio.o
+ .debug_line    0x0000000000000000      0x5c9 utils/am_util_stdio.o
+ .debug_str     0x0000000000000000      0x5af utils/am_util_stdio.o
+ .comment       0x0000000000000000       0x7d utils/am_util_stdio.o
+ .debug_frame   0x0000000000000000      0x2e8 utils/am_util_stdio.o
+ .ARM.attributes
+                0x0000000000000000       0x37 utils/am_util_stdio.o
+ COMMON         0x0000000000000000        0x4 utils/am_util_stdio.o
+ .text          0x0000000000000000        0x0 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .data          0x0000000000000000        0x0 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .bss           0x0000000000000000        0x0 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_iom_spi_pins_enable
+                0x0000000000000000       0xcc ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_iom_spi_pins_disable
+                0x0000000000000000       0xcc ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_iom_enable
+                0x0000000000000000       0x9c ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_iom_disable
+                0x0000000000000000       0xb0 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_iom_i2c_pins_enable
+                0x0000000000000000       0xc8 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_iom_i2c_pins_disable
+                0x0000000000000000       0x98 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_debug_printf_enable
+                0x0000000000000000       0x58 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_debug_printf_disable
+                0x0000000000000000       0x50 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_itm_string_print
+                0x0000000000000000        0x4 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text.am_bsp_uart_string_print
+                0x0000000000000000        0x8 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .data.am_bsp_psButtons
+                0x0000000000000000       0x30 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .data.am_bsp_psLEDs
+                0x0000000000000000       0x28 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .rodata.g_SPIpins
+                0x0000000000000000       0x10 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_int_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_int_enable_get
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_int_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_int_set
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_int_status_get
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_int_clear
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_osc_start
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_clkout_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_clkout_disable
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_uarten_set
+                0x0000000000000000       0x34 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_hfrc_adjust_enable
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_hfrc_adjust_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_delay_status_change
+                0x0000000000000000       0xf0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_mass_erase
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_page_erase
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_program_main
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_program_otp
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_program_otp_sram
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_main_pages_sram
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_mass_erase_sram
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_program_main_sram
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text.am_hal_flash_load_ui32
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .data.SRAM_load_ui32
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .rodata.g_am_hal_flash
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_pin_config_read
+                0x0000000000000000       0x5c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_input_read
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_out_read
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_out_enable_bit_get
+                0x0000000000000000       0x24 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_out_enable_get
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_enable_get
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_disable
+                0x0000000000000000       0x24 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_set
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_status_get
+                0x0000000000000000       0x44 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_service
+                0x0000000000000000       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_register
+                0x0000000000000000       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text.am_hal_gpio_int_polarity_bit_get
+                0x0000000000000000       0x28 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .rodata.am_hal_gpio_int_register.str1.4
+                0x0000000000000000       0x1a ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .rodata.am_hal_gpio_pin_config_read.str1.4
+                0x0000000000000000       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ COMMON         0x0000000000000000      0x100 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_disable
+                0x0000000000000000       0x50 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_priority_set
+                0x0000000000000000       0x40 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_pend_set
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_pend_clear
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_master_enable
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_master_disable
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text.am_hal_interrupt_master_set
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_sleeping_queue_flush
+                0x0000000000000000       0x44 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_read_nb.part.10
+                0x0000000000000000      0x150 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_write_nb.part.6
+                0x0000000000000000      0x1a4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_write_nq.part.7
+                0x0000000000000000      0x37c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_write_nb.part.9
+                0x0000000000000000      0x21c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_read_nq.part.8
+                0x0000000000000000      0x380 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_enable
+                0x0000000000000000       0x94 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_disable
+                0x0000000000000000       0x88 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_config
+                0x0000000000000000       0xbc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_write_nq
+                0x0000000000000000      0x358 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_write
+                0x0000000000000000       0xf8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_read_nq
+                0x0000000000000000      0x39c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_write_nb
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_read_nb
+                0x0000000000000000      0x158 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_read
+                0x0000000000000000      0x110 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_spi_cmd_run
+                0x0000000000000000       0x54 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_write_nq
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_read_nq
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_write
+                0x0000000000000000      0x168 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_read
+                0x0000000000000000      0x16c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_write_nb
+                0x0000000000000000      0x1fc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_read_nb
+                0x0000000000000000      0x120 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_i2c_cmd_run
+                0x0000000000000000       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_command_repeat_set
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_fifo_write
+                0x0000000000000000       0xe4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_fifo_read
+                0x0000000000000000       0xf0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_fifo_empty_slots
+                0x0000000000000000       0x24 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_fifo_full_slots
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_poll_complete
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_status_get
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_error_status_get
+                0x0000000000000000       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_service
+                0x0000000000000000      0x468 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_init
+                0x0000000000000000       0x24 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_length_get
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_start_next_msg
+                0x0000000000000000       0x88 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_spi_write
+                0x0000000000000000       0xb4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_spi_read
+                0x0000000000000000       0xb4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_i2c_write
+                0x0000000000000000       0xb0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_i2c_read
+                0x0000000000000000       0xb0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_queue_service
+                0x0000000000000000      0x480 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_enable
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_enable_get
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_disable
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_clear
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_set
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text.am_hal_iom_int_status_get
+                0x0000000000000000       0x24 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .bss.g_bIomBusy
+                0x0000000000000000        0x2 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .bss.g_iom_error_status
+                0x0000000000000000        0x4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .bss.g_ui32Mod0Interface
+                0x0000000000000000        0x4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .bss.g_ui32Mod1Interface
+                0x0000000000000000        0x4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .data.am_hal_iom_queue_flush
+                0x0000000000000000        0x4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .data.ui32StatusTimeout
+                0x0000000000000000        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_config.str1.4
+                0x0000000000000000       0x7a ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_i2c_read_nb.part.10.str1.4
+                0x0000000000000000       0x4e ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_i2c_read_nq.part.8.str1.4
+                0x0000000000000000       0x38 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_i2c_write_nq.part.7.str1.4
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_spi_write.str1.4
+                0x0000000000000000       0x71 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_spi_write_nb.part.6.str1.4
+                0x0000000000000000       0x4c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .rodata.am_hal_iom_spi_write_nq.str1.4
+                0x0000000000000000       0x30 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_info    0x0000000000000000     0x5239 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_abbrev  0x0000000000000000      0x3c0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_loc     0x0000000000000000     0x7293 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_aranges
+                0x0000000000000000      0x188 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_ranges  0x0000000000000000      0xa40 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_line    0x0000000000000000     0x11ac ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_str     0x0000000000000000      0xbe8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .debug_frame   0x0000000000000000      0x6d8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ COMMON         0x0000000000000000       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_iom.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_disable
+                0x0000000000000000       0x5c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_not_busy
+                0x0000000000000000       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_trace_port_enable
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_trace_port_disable
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_not_busy
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_reg_word_write
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_reg_short_write
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_stimulus_reg_byte_write
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_sync_send
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_print_not_busy
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text.am_hal_itm_print
+                0x0000000000000000       0x34 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_device_info_get
+                0x0000000000000000       0xd8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_fault_capture_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_fault_capture_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_flash_power_set
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_sram_power_set
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_bandgap_enable
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text.am_hal_mcuctrl_bucks_disable
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .rodata.am_hal_mcuctrl_flash_size
+                0x0000000000000000       0x40 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .rodata.am_hal_mcuctrl_sram_size
+                0x0000000000000000       0x40 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .text.am_hal_queue_init
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .text.am_hal_queue_item_add
+                0x0000000000000000      0x120 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .text.am_hal_queue_item_get
+                0x0000000000000000      0x120 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_info    0x0000000000000000      0x490 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_abbrev  0x0000000000000000      0x18a ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_loc     0x0000000000000000      0x2f8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_aranges
+                0x0000000000000000       0x30 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_ranges  0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_line    0x0000000000000000      0x313 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_str     0x0000000000000000      0x50c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .debug_frame   0x0000000000000000       0x6c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_queue.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_osc_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_time_12hour
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_enable_get
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_set
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_clear
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_int_status_get
+                0x0000000000000000       0x24 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_time_set
+                0x0000000000000000      0x124 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_time_get
+                0x0000000000000000       0xc8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_alarm_interval_set
+                0x0000000000000000       0x50 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_alarm_set
+                0x0000000000000000       0xfc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text.am_hal_rtc_alarm_get
+                0x0000000000000000       0xa4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_sleep
+                0x0000000000000000       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_sleep_auto
+                0x0000000000000000       0x50 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_disable
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_stacking_enable
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_stacking_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_reset
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_info    0x0000000000000000      0x308 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_abbrev  0x0000000000000000      0x12d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_loc     0x0000000000000000       0x4d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_aranges
+                0x0000000000000000       0x50 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_ranges  0x0000000000000000       0x40 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_line    0x0000000000000000      0x26d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_str     0x0000000000000000      0x49e ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .debug_frame   0x0000000000000000       0x80 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_sysctrl.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_clock_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_clock_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_port_width_set
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_supported_port_width_get
+                0x0000000000000000       0xb0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_port_width_get
+                0x0000000000000000       0x68 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_configure
+                0x0000000000000000       0x38 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_enable
+                0x0000000000000000       0xb8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text.am_hal_tpiu_disable
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_info    0x0000000000000000      0x42b ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_abbrev  0x0000000000000000      0x1d6 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_loc     0x0000000000000000      0x17b ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_aranges
+                0x0000000000000000       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_ranges  0x0000000000000000       0x48 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_line    0x0000000000000000      0x300 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_str     0x0000000000000000      0x58b ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .debug_frame   0x0000000000000000       0xcc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_tpiu.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_config
+                0x0000000000000000       0x68 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_status_get
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_int_status_get
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_int_clear
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_int_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_int_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_int_enable_get
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_enable
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_disable
+                0x0000000000000000       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_clock_enable
+                0x0000000000000000       0x28 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_clock_disable
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_fifo_config
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_flags_get
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_char_transmit_polled
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_string_transmit_polled
+                0x0000000000000000       0x28 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_char_receive_polled
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_line_receive_polled
+                0x0000000000000000       0x3c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_init_buffered
+                0x0000000000000000       0x50 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_get_status_buffered
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_service_buffered
+                0x0000000000000000       0xa0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_char_transmit_buffered
+                0x0000000000000000       0x48 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_string_transmit_buffered
+                0x0000000000000000       0x60 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text.am_hal_uart_char_receive_buffered
+                0x0000000000000000       0x4c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_info    0x0000000000000000      0xe63 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_abbrev  0x0000000000000000      0x355 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_loc     0x0000000000000000      0xbcd ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_aranges
+                0x0000000000000000       0xd0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_ranges  0x0000000000000000      0x1a8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_line    0x0000000000000000      0x518 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_str     0x0000000000000000      0x95a ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .debug_frame   0x0000000000000000      0x1f8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ COMMON         0x0000000000000000       0x28 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_uart.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_config
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_dac_level_set
+                0x0000000000000000       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_read
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_enable
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_int_status_get
+                0x0000000000000000       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_int_set
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_int_clear
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_int_enable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_int_enable_get
+                0x0000000000000000        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text.am_hal_vcomp_int_disable
+                0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .text.am_hal_debug_error
+                0x0000000000000000        0x4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_info    0x0000000000000000      0x2bc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_abbrev  0x0000000000000000       0xfd ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_aranges
+                0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_ranges  0x0000000000000000       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_line    0x0000000000000000      0x1c8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_str     0x0000000000000000      0x3fd ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .debug_frame   0x0000000000000000       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_debug.o)
+ .text          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .data          0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .bss           0x0000000000000000        0x0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .text.am_hal_i2c_bit_bang_init
+                0x0000000000000000      0x310 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .text.am_hal_i2c_bit_bang_receive
+                0x0000000000000000      0x8a4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .text.am_hal_i2c_bit_bang_send
+                0x0000000000000000      0x6fc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .bss.am_hal_i2c_bit_bang_priv
+                0x0000000000000000       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_info    0x0000000000000000     0x19cc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_abbrev  0x0000000000000000      0x273 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_loc     0x0000000000000000      0x851 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_aranges
+                0x0000000000000000       0x30 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_ranges  0x0000000000000000      0x1a0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_line    0x0000000000000000      0xa37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_str     0x0000000000000000      0x6d6 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .comment       0x0000000000000000       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .debug_frame   0x0000000000000000       0x94 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_i2c_bit_bang.o)
+ .text          0x0000000000000000        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+ .text.memcpy   0x0000000000000000       0x16 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000000000       0x28 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000       0xa0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x24 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a(_arm_truncdfsf2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000080000 xr
+SRAM             0x0000000010000000 0x0000000000010000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD src/hello_world.o
+LOAD startup_gcc.o
+LOAD utils/am_util_delay.o
+LOAD utils/am_util_faultisr.o
+LOAD utils/am_util_id.o
+LOAD utils/am_util_stdio.o
+LOAD ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a
+LOAD ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a
+START GROUP
+LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libm.a
+LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a
+LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a
+END GROUP
+START GROUP
+LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/softfp/libgcc.a
+LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.1.0/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/softfp/libc.a
+END GROUP
+
+.text           0x0000000000000000      0xa84
+                0x0000000000000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0x80 startup_gcc.o
+                0x0000000000000000                g_am_pfnVectors
+ *(.text)
+ *(.text*)
+ .text.main     0x0000000000000080      0x438 src/hello_world.o
+                0x0000000000000080                main
+ .text.shiftOut
+                0x00000000000004b8      0x114 src/hello_world.o
+                0x00000000000004b8                shiftOut
+ .text.am_gpio_isr
+                0x00000000000005cc       0x24 src/hello_world.o
+                0x00000000000005cc                am_gpio_isr
+ .text.displayInt
+                0x00000000000005f0       0xb0 src/hello_world.o
+                0x00000000000005f0                displayInt
+ .text.am_reset_isr
+                0x00000000000006a0       0x68 startup_gcc.o
+                0x00000000000006a0                am_reset_isr
+ .text.am_nmi_isr
+                0x0000000000000708        0x6 startup_gcc.o
+                0x0000000000000708                am_nmi_isr
+ .text.am_default_isr
+                0x000000000000070e        0x6 startup_gcc.o
+                0x000000000000070e                am_adc_isr
+                0x000000000000070e                am_software14_isr
+                0x000000000000070e                am_clkgen_isr
+                0x000000000000070e                am_uart_isr
+                0x000000000000070e                am_ctimer_isr
+                0x000000000000070e                am_svcall_isr
+                0x000000000000070e                am_ioslave_acc_isr
+                0x000000000000070e                am_software15_isr
+                0x000000000000070e                am_iomaster1_isr
+                0x000000000000070e                am_brownout_isr
+                0x000000000000070e                am_vcomp_isr
+                0x000000000000070e                am_debugmon_isr
+                0x000000000000070e                am_software12_isr
+                0x000000000000070e                am_software13_isr
+                0x000000000000070e                am_ioslave_ios_isr
+                0x000000000000070e                am_systick_isr
+                0x000000000000070e                am_watchdog_isr
+                0x000000000000070e                am_iomaster0_isr
+                0x000000000000070e                am_default_isr
+                0x000000000000070e                am_pendsv_isr
+ .text.am_util_delay_ms
+                0x0000000000000714       0x34 utils/am_util_delay.o
+                0x0000000000000714                am_util_delay_ms
+ .text.am_fault_isr
+                0x0000000000000748       0x10 utils/am_util_faultisr.o
+                0x0000000000000748                am_fault_isr
+ .text.getStackedReg
+                0x0000000000000758        0xc utils/am_util_faultisr.o
+                0x0000000000000758                getStackedReg
+ .text.am_util_faultisr_collect_data
+                0x0000000000000764       0xe4 utils/am_util_faultisr.o
+                0x0000000000000764                am_util_faultisr_collect_data
+ .text.am_bsp_low_power_init
+                0x0000000000000848       0x24 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+                0x0000000000000848                am_bsp_low_power_init
+ .text.am_hal_clkgen_sysclk_select
+                0x000000000000086c       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+                0x000000000000086c                am_hal_clkgen_sysclk_select
+ .text.am_hal_clkgen_sysclk_get
+                0x000000000000088c       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+                0x000000000000088c                am_hal_clkgen_sysclk_get
+ .text.am_hal_clkgen_osc_stop
+                0x00000000000008a4       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+                0x00000000000008a4                am_hal_clkgen_osc_stop
+ .text.am_hal_flash_delay
+                0x00000000000008b8        0x8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+                0x00000000000008b8                am_hal_flash_delay
+ .text.am_hal_gpio_int_enable
+                0x00000000000008c0       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+                0x00000000000008c0                am_hal_gpio_int_enable
+ .text.am_hal_gpio_int_clear
+                0x00000000000008e0       0x14 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+                0x00000000000008e0                am_hal_gpio_int_clear
+ .text.am_hal_interrupt_enable
+                0x00000000000008f4       0x50 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+                0x00000000000008f4                am_hal_interrupt_enable
+ .text.am_hal_itm_enable
+                0x0000000000000944       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+                0x0000000000000944                am_hal_itm_enable
+ .text.am_hal_mcuctrl_fault_status
+                0x000000000000099c       0x48 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+                0x000000000000099c                am_hal_mcuctrl_fault_status
+ .text.am_hal_mcuctrl_bandgap_disable
+                0x00000000000009e4       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+                0x00000000000009e4                am_hal_mcuctrl_bandgap_disable
+ .text.am_hal_mcuctrl_bucks_enable
+                0x00000000000009f4       0x2c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+                0x00000000000009f4                am_hal_mcuctrl_bucks_enable
+ .text.am_hal_rtc_osc_select
+                0x0000000000000a20       0x1c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+                0x0000000000000a20                am_hal_rtc_osc_select
+ .text.am_hal_rtc_osc_disable
+                0x0000000000000a3c       0x10 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+                0x0000000000000a3c                am_hal_rtc_osc_disable
+ .text.am_hal_vcomp_disable
+                0x0000000000000a4c        0xc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+                0x0000000000000a4c                am_hal_vcomp_disable
+ *(.rodata)
+ .rodata        0x0000000000000a58        0xa src/hello_world.o
+ *(.rodata*)
+ *fill*         0x0000000000000a62        0x2 
+ .rodata.CSWTCH.4
+                0x0000000000000a64       0x20 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+                0x0000000000000a84                . = ALIGN (0x4)
+                0x0000000000000a84                _etext = .
+
+.glue_7         0x0000000000000a84        0x0
+ .glue_7        0x0000000000000a84        0x0 linker stubs
+
+.glue_7t        0x0000000000000a84        0x0
+ .glue_7t       0x0000000000000a84        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000a84        0x0
+ .vfp11_veneer  0x0000000000000a84        0x0 linker stubs
+
+.v4_bx          0x0000000000000a84        0x0
+ .v4_bx         0x0000000000000a84        0x0 linker stubs
+
+.iplt           0x0000000000000a84        0x0
+ .iplt          0x0000000000000a84        0x0 src/hello_world.o
+
+.rel.dyn        0x0000000000000a84        0x0
+ .rel.iplt      0x0000000000000a84        0x0 src/hello_world.o
+
+.stack          0x0000000010000000     0x1000
+                0x0000000010000000                . = ALIGN (0x8)
+ *(.stack)
+ .stack         0x0000000010000000     0x1000 startup_gcc.o
+ *(.stack*)
+                0x0000000010001000                . = ALIGN (0x8)
+
+.data           0x0000000010001000        0x4 load address 0x0000000000000a84
+                0x0000000010001000                . = ALIGN (0x4)
+                0x0000000010001000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.delay    0x0000000010001000        0x4 src/hello_world.o
+                0x0000000010001004                . = ALIGN (0x4)
+                0x0000000010001004                _edata = .
+                0x0000000000000a84                _init_data = LOADADDR (.data)
+
+.igot.plt       0x0000000010001004        0x0 load address 0x0000000000000a88
+ .igot.plt      0x0000000010001004        0x0 src/hello_world.o
+
+.bss            0x0000000010001004        0x4 load address 0x0000000000000a88
+                0x0000000010001004                . = ALIGN (0x4)
+                0x0000000010001004                _sbss = .
+ *(.bss)
+ *(.bss*)
+ .bss.g_ui32HALflags
+                0x0000000010001004        0x4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+                0x0000000010001004                g_ui32HALflags
+ *(COMMON)
+                0x0000000010001008                . = ALIGN (0x4)
+                0x0000000010001008                _ebss = .
+
+.ARM.attributes
+                0x0000000000000000       0x37
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x37 src/hello_world.o
+ .ARM.attributes
+                0x0000000000000037       0x37 startup_gcc.o
+ .ARM.attributes
+                0x000000000000006e       0x37 utils/am_util_delay.o
+ .ARM.attributes
+                0x00000000000000a5       0x37 utils/am_util_faultisr.o
+ .ARM.attributes
+                0x00000000000000dc       0x37 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .ARM.attributes
+                0x0000000000000113       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .ARM.attributes
+                0x000000000000014a       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .ARM.attributes
+                0x0000000000000181       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .ARM.attributes
+                0x00000000000001b8       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .ARM.attributes
+                0x00000000000001ef       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .ARM.attributes
+                0x0000000000000226       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .ARM.attributes
+                0x000000000000025d       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .ARM.attributes
+                0x0000000000000294       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .ARM.attributes
+                0x00000000000002cb       0x37 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+OUTPUT(hello_world_gcc.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0x4b79
+ .debug_info    0x0000000000000000      0xd86 src/hello_world.o
+ .debug_info    0x0000000000000d86      0x15a startup_gcc.o
+ .debug_info    0x0000000000000ee0      0x248 utils/am_util_delay.o
+ .debug_info    0x0000000000001128      0x43e utils/am_util_faultisr.o
+ .debug_info    0x0000000000001566      0x783 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_info    0x0000000000001ce9      0x4f3 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_info    0x00000000000021dc      0x6b6 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_info    0x0000000000002892      0x272 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .debug_info    0x0000000000002b04      0x5b6 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_info    0x00000000000030ba      0x3b2 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_info    0x000000000000346c      0x5aa ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_info    0x0000000000003a16      0x4aa ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_info    0x0000000000003ec0      0x8a0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_info    0x0000000000004760      0x419 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_abbrev   0x0000000000000000     0x1739
+ .debug_abbrev  0x0000000000000000      0x24a src/hello_world.o
+ .debug_abbrev  0x000000000000024a       0xe2 startup_gcc.o
+ .debug_abbrev  0x000000000000032c       0xdf utils/am_util_delay.o
+ .debug_abbrev  0x000000000000040b      0x14f utils/am_util_faultisr.o
+ .debug_abbrev  0x000000000000055a      0x1f7 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_abbrev  0x0000000000000751      0x1f3 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_abbrev  0x0000000000000944      0x1f8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_abbrev  0x0000000000000b3c       0xdd ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .debug_abbrev  0x0000000000000c19      0x1de ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_abbrev  0x0000000000000df7      0x176 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_abbrev  0x0000000000000f6d      0x27c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_abbrev  0x00000000000011e9      0x17f ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_abbrev  0x0000000000001368      0x20f ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_abbrev  0x0000000000001577      0x1c2 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_aranges  0x0000000000000000      0x518
+ .debug_aranges
+                0x0000000000000000       0x38 src/hello_world.o
+ .debug_aranges
+                0x0000000000000038       0x38 startup_gcc.o
+ .debug_aranges
+                0x0000000000000070       0x30 utils/am_util_delay.o
+ .debug_aranges
+                0x00000000000000a0       0x30 utils/am_util_faultisr.o
+ .debug_aranges
+                0x00000000000000d0       0x70 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_aranges
+                0x0000000000000140       0x90 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_aranges
+                0x00000000000001d0       0x70 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_aranges
+                0x0000000000000240       0x18 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .debug_aranges
+                0x0000000000000258       0x88 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_aranges
+                0x00000000000002e0       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_aranges
+                0x0000000000000338       0x78 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_aranges
+                0x00000000000003b0       0x68 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_aranges
+                0x0000000000000418       0x90 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_aranges
+                0x00000000000004a8       0x70 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_ranges   0x0000000000000000      0x7d8
+ .debug_ranges  0x0000000000000000       0x28 src/hello_world.o
+ .debug_ranges  0x0000000000000028       0x28 startup_gcc.o
+ .debug_ranges  0x0000000000000050       0x20 utils/am_util_delay.o
+ .debug_ranges  0x0000000000000070       0x20 utils/am_util_faultisr.o
+ .debug_ranges  0x0000000000000090       0x60 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_ranges  0x00000000000000f0       0x80 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_ranges  0x0000000000000170       0x60 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_ranges  0x00000000000001d0       0x78 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_ranges  0x0000000000000248       0x48 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_ranges  0x0000000000000290       0xa0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_ranges  0x0000000000000330       0x58 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_ranges  0x0000000000000388      0x3f0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_ranges  0x0000000000000778       0x60 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_line     0x0000000000000000     0x2a48
+ .debug_line    0x0000000000000000      0x571 src/hello_world.o
+ .debug_line    0x0000000000000571      0x15c startup_gcc.o
+ .debug_line    0x00000000000006cd      0x1e7 utils/am_util_delay.o
+ .debug_line    0x00000000000008b4      0x298 utils/am_util_faultisr.o
+ .debug_line    0x0000000000000b4c      0x44e ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_line    0x0000000000000f9a      0x2ff ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_line    0x0000000000001299      0x2ba ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_line    0x0000000000001553      0x1b9 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .debug_line    0x000000000000170c      0x363 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_line    0x0000000000001a6f      0x283 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_line    0x0000000000001cf2      0x31c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_line    0x000000000000200e      0x2da ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_line    0x00000000000022e8      0x4cc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_line    0x00000000000027b4      0x294 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_str      0x0000000000000000     0x1dfa
+ .debug_str     0x0000000000000000      0x926 src/hello_world.o
+                                        0x9ea (size before relaxing)
+ .debug_str     0x0000000000000926       0x83 startup_gcc.o
+                                        0x264 (size before relaxing)
+ .debug_str     0x00000000000009a9       0xa3 utils/am_util_delay.o
+                                        0x396 (size before relaxing)
+ .debug_str     0x0000000000000a4c      0x14f utils/am_util_faultisr.o
+                                        0x52d (size before relaxing)
+ .debug_str     0x0000000000000b9b      0x42b ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+                                        0x816 (size before relaxing)
+ .debug_str     0x0000000000000fc6      0x2a8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+                                        0x637 (size before relaxing)
+ .debug_str     0x000000000000126e       0xe6 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+                                        0x4cd (size before relaxing)
+ .debug_str     0x0000000000001354       0x16 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+                                        0x3cc (size before relaxing)
+ .debug_str     0x000000000000136a      0x218 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+                                        0x61a (size before relaxing)
+ .debug_str     0x0000000000001582      0x108 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+                                        0x508 (size before relaxing)
+ .debug_str     0x000000000000168a      0x17f ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+                                        0x5b2 (size before relaxing)
+ .debug_str     0x0000000000001809      0x21c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+                                        0x653 (size before relaxing)
+ .debug_str     0x0000000000001a25      0x283 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+                                        0x69e (size before relaxing)
+ .debug_str     0x0000000000001ca8      0x152 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+                                        0x542 (size before relaxing)
+
+.comment        0x0000000000000000       0x7c
+ .comment       0x0000000000000000       0x7c src/hello_world.o
+                                         0x7d (size before relaxing)
+ .comment       0x000000000000007c       0x7d startup_gcc.o
+ .comment       0x000000000000007c       0x7d utils/am_util_delay.o
+ .comment       0x000000000000007c       0x7d utils/am_util_faultisr.o
+ .comment       0x000000000000007c       0x7d ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_global.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .comment       0x000000000000007c       0x7d ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_frame    0x0000000000000000      0xb18
+ .debug_frame   0x0000000000000000       0x98 src/hello_world.o
+ .debug_frame   0x0000000000000098       0x68 startup_gcc.o
+ .debug_frame   0x0000000000000100       0x7c utils/am_util_delay.o
+ .debug_frame   0x000000000000017c       0x50 utils/am_util_faultisr.o
+ .debug_frame   0x00000000000001cc      0x170 ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_frame   0x000000000000033c      0x11c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_frame   0x0000000000000458       0xf8 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_frame   0x0000000000000550      0x148 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_frame   0x0000000000000698       0xa0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_frame   0x0000000000000738       0xf4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_frame   0x000000000000082c       0xd4 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_frame   0x0000000000000900      0x14c ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_frame   0x0000000000000a4c       0xcc ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
+
+.debug_loc      0x0000000000000000     0x111d
+ .debug_loc     0x0000000000000000      0x17a ../../../../bsp/atollic_gcc/bin/libam_bsp_gcc.a(am_bsp.o)
+ .debug_loc     0x000000000000017a      0x16f ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_clkgen.o)
+ .debug_loc     0x00000000000002e9      0x344 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_flash.o)
+ .debug_loc     0x000000000000062d      0x367 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_gpio.o)
+ .debug_loc     0x0000000000000994      0x15f ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_interrupt.o)
+ .debug_loc     0x0000000000000af3      0x272 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_itm.o)
+ .debug_loc     0x0000000000000d65       0x13 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_mcuctrl.o)
+ .debug_loc     0x0000000000000d78      0x2f5 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_rtc.o)
+ .debug_loc     0x000000000000106d       0xb0 ../../../../../../mcu/apollo/hal/atollic_gcc/bin/libam_hal_gcc.a(am_hal_vcomp.o)
